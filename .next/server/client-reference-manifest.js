@@ -789,7 +789,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/Header.js",
         "name": "*",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/about/page:static/chunks/app/about/page.js"
         ],
         "async": false
       },
@@ -797,7 +797,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/Header.js",
         "name": "",
         "chunks": [
-          "app/page:static/chunks/app/page.js"
+          "app/about/page:static/chunks/app/about/page.js"
         ],
         "async": false
       },
@@ -805,7 +805,85 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/Header.js",
         "name": "default",
         "chunks": [
+          "app/about/page:static/chunks/app/about/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/InputBox.js": {
+      "*": {
+        "id": "(sc_client)/./components/InputBox.js",
+        "name": "*",
+        "chunks": [
           "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/InputBox.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/InputBox.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/about/page:static/chunks/app/about/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/about/page:static/chunks/app/about/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/about/page:static/chunks/app/about/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/about/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/about/page.js",
+        "name": "*",
+        "chunks": [
+          "app/about/page:static/chunks/app/about/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/about/page.js",
+        "name": "",
+        "chunks": [
+          "app/about/page:static/chunks/app/about/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/about/page.js",
+        "name": "default",
+        "chunks": [
+          "app/about/page:static/chunks/app/about/page.js"
         ],
         "async": false
       }
@@ -2546,6 +2624,20 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
     "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/app/page.tsx": {
       "id": "(app-client)/./app/page.tsx",
       "name": "*",
@@ -2574,7 +2666,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/Header.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/about/page:static/chunks/app/about/page.js"
       ],
       "async": false
     },
@@ -2582,7 +2674,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/Header.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/about/page:static/chunks/app/about/page.js"
       ],
       "async": false
     },
@@ -2590,23 +2682,105 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/Header.js",
       "name": "default",
       "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
+    },
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/components/InputBox.js": {
+      "id": "(app-client)/./components/InputBox.js",
+      "name": "*",
+      "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/app/globals.css#": {
-      "id": "null",
-      "name": "default",
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/components/InputBox.js#": {
+      "id": "(app-client)/./components/InputBox.js",
+      "name": "",
       "chunks": [
-        "static/css/app/layout.css"
-      ]
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     },
-    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/components/InputBox.js#default": {
+      "id": "(app-client)/./components/InputBox.js",
       "name": "default",
       "chunks": [
-        "static/css/app/layout.css"
-      ]
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
+    },
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
+    },
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
+    },
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
+    },
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
+    },
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
+    },
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/app/about/page.js": {
+      "id": "(app-client)/./app/about/page.js",
+      "name": "*",
+      "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
+    },
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/app/about/page.js#": {
+      "id": "(app-client)/./app/about/page.js",
+      "name": "",
+      "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
+    },
+    "/Users/etorun/WebstormProjects/Refactor_attempt_1/nextjs-flask/app/about/page.js#default": {
+      "id": "(app-client)/./app/about/page.js",
+      "name": "default",
+      "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
     }
   }
 }

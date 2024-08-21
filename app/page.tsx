@@ -1,7 +1,8 @@
 'use client';
 import React, { useState } from 'react';
-import Header from '../components/Header';
+import InputBox from '../components/InputBox';
 import OutputBox from '../components/OutputBox';
+import Header from "@/components/Header";
 import { translateText, getGrammarExplanation, parseText } from '../utils/api';
 
 export default function Home() {
@@ -48,32 +49,34 @@ export default function Home() {
     };
 
     return (
-
-        <div className="min-h-screen bg-gray-100 py-12  px-4 sm:px-6 lg:px-8">
-            <div className="max-w-2xl mx-auto overflow-hidden ">
-                <Header
-                    inputText={inputText}
-                    setInputText={setInputText}
-                    onTranslate={() => handleAction('translate')}
-                    onGrammar={() => handleAction('grammar')}
-                    onParse={() => handleAction('parse')}
-                    onClear={handleClear}
-                    isLoading={isLoading}
-                />
-                {isLoading && (
-                    <p className="text-center text-lg py-4">Processing...</p>
-                )}
-                {error && <p className="text-center text-red-500 py-4">{error}</p>}
-                <div className="p-6 space-y-6">
-                    {Object.entries(outputs).map(([type, output]) => (
-                        <OutputBox
-                            key={type}
-                            heading={output.heading}
-                            text={output.text}
-                        />
-                    ))}
+        <body>
+        <Header/>
+            <div className="min-h-screen bg-gray-100 py-12  px-4 sm:px-6 lg:px-8">
+                <div className="max-w-2xl mx-auto overflow-hidden">
+                    <InputBox
+                        inputText={inputText}
+                        setInputText={setInputText}
+                        onTranslate={() => handleAction('translate')}
+                        onGrammar={() => handleAction('grammar')}
+                        onParse={() => handleAction('parse')}
+                        onClear={handleClear}
+                        isLoading={isLoading}
+                    />
+                    {isLoading && (
+                        <p className="text-center text-lg py-4">Processing...</p>
+                    )}
+                    {error && <p className="text-center text-red-500 py-4">{error}</p>}
+                    <div className="p-6 space-y-6">
+                        {Object.entries(outputs).map(([type, output]) => (
+                            <OutputBox
+                                key={type}
+                                heading={output.heading}
+                                text={output.text}
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
-        </div>
+        </body>
     );
 }
